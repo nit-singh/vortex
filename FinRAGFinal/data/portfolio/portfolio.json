@@ -1,0 +1,70 @@
+{
+  "portfolio_name": "Growth Portfolio",
+  "created_date": "2024-11-27",
+  "last_updated": "2025-12-01",
+  "allocations": [
+    {
+      "ticker": "PERSISTENT.NS",
+      "percentage": 8.5
+    },
+    {
+      "ticker": "COALINDIA.NS",
+      "percentage": 7.2
+    },
+    {
+      "ticker": "DIXON.NS",
+      "percentage": 9.1
+    },
+    {
+      "ticker": "HDFCBANK.NS",
+      "percentage": 6.8
+    },
+    {
+      "ticker": "ICICIBANK.NS",
+      "percentage": 5.4
+    },
+    {
+      "ticker": "BHARTIARTL.NS",
+      "percentage": 8.9
+    },
+    {
+      "ticker": "KOTAKBANK.NS",
+      "percentage": 4.7
+    },
+    {
+      "ticker": "MARICO.NS",
+      "percentage": 6.3
+    },
+    {
+      "ticker": "WIPRO.NS",
+      "percentage": 7.8
+    },
+    {
+      "ticker": "SUNPHARMA.NS",
+      "percentage": 5.9
+    },
+    {
+      "ticker": "TITAN.NS",
+      "percentage": 8.2
+    },
+    {
+      "ticker": "BAJFINANCE.NS",
+      "percentage": 6.1
+    },
+    {
+      "ticker": "ADANIENT.NS",
+      "percentage": 4.3
+    },
+    {
+      "ticker": "TATACONSUM.NS",
+      "percentage": 5.6
+    },
+    {
+      "ticker": "ONGC.NS",
+      "percentage": 5.2
+    }
+  ],
+  "total_value": 10000000,
+  "risk_profile": "moderate",
+  "investment_horizon": "3-5 years"
+}

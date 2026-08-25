@@ -1,0 +1,147 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env.local
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Next.js
+.next/
+out/
+
+# Environment Variables
+.env
+keys.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Model Checkpoints and Large Files
+checkpoints*/
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.ckpt
+*.onnx
+*.zip
+*.parquet
+*.npz
+*.npy
+
+# Logs
+logs/
+SmartFolio/logs/
+*.log
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Uploads
+uploads/
+KYC/uploads/
+
+# Cache
+cache/
+.cache/
+FinRAGFinal/cache/
+FinRAGFinal/.pytest_cache/
+
+# FinRAG Tree (RAPTOR tree - copy from provided zip)
+FinRAGFinal/finrag_tree/
+
+# SmartFolio Dataset (copy from provided zip)
+SmartFolio/dataset_default/
+SmartFolio/display_data/
+SmartFolio/explainability_results/
+
+# Streaming output
+streaming/output/
+streaming/__pycache__/
+
+
+# Encryption keys
+*.key
+.encryption_key
+
+# Credentials (NEVER commit these)
+**/user_cred.json
+**/credentials.json
+**/service_account.json
+*.pem
+
+# Docker
+docker-compose.override.yml
+
+# Mac OS files
+._*

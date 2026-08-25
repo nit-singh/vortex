@@ -1,0 +1,16 @@
+{
+  "ticker": "BAJAJFINSV",
+  "cached_at": "2025-11-28T12:11:44.228432",
+  "fundamental_data": {
+    "financial_metrics": {
+      "valuation": 35.0,
+      "profitability": 71.25,
+      "growth": 65.0,
+      "financial_health": 68.33333333333333,
+      "momentum": 207.0
+    },
+    "sentiment_analysis": {},
+    "risk_factors": [],
+    "opportunities": []
+  }
+}

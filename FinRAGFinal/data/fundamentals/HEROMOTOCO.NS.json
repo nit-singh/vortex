@@ -1,0 +1,30 @@
+{
+  "ticker": "HEROMOTOCO.NS",
+  "cached_at": "2025-11-27T14:06:42.445582",
+  "fundamental_data": {
+    "financial_metrics": {
+      "market_cap": 1230701985792,
+      "revenue": null,
+      "profit_margin": 0.12526,
+      "eps": null,
+      "pe_ratio": 23.310722,
+      "pb_ratio": null,
+      "debt_to_equity": 3.395,
+      "roe": 0.26332,
+      "dividend_yield": 2.12,
+      "beta": 0.709
+    },
+    "price_info": {
+      "current_price": 6151.0,
+      "day_high": null,
+      "day_low": null,
+      "fifty_two_week_high": null,
+      "fifty_two_week_low": null
+    },
+    "company_info": {
+      "company_name": "Hero MotoCorp Limited",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Manufacturers"
+    }
+  }
+}

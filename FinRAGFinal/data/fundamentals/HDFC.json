@@ -1,0 +1,30 @@
+{
+  "ticker": "HDFC",
+  "cached_at": "2025-11-30T16:19:12.379295",
+  "fundamental_data": {
+    "financial_metrics": {
+      "market_cap": 0,
+      "revenue": null,
+      "profit_margin": null,
+      "eps": null,
+      "pe_ratio": null,
+      "pb_ratio": null,
+      "debt_to_equity": null,
+      "roe": null,
+      "dividend_yield": null,
+      "beta": null
+    },
+    "price_info": {
+      "current_price": 0,
+      "day_high": null,
+      "day_low": null,
+      "fifty_two_week_high": null,
+      "fifty_two_week_low": null
+    },
+    "company_info": {
+      "company_name": "HDFC",
+      "sector": "Unknown",
+      "industry": "Unknown"
+    }
+  }
+}

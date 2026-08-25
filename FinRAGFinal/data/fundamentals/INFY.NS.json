@@ -1,0 +1,30 @@
+{
+  "ticker": "INFY.NS",
+  "cached_at": "2025-11-30T16:26:05.965606",
+  "fundamental_data": {
+    "financial_metrics": {
+      "market_cap": 6467445850112,
+      "revenue": null,
+      "profit_margin": 0.16584998,
+      "eps": null,
+      "pe_ratio": 22.122803,
+      "pb_ratio": null,
+      "debt_to_equity": 8.437,
+      "roe": 0.29026,
+      "dividend_yield": 2.88,
+      "beta": 0.338
+    },
+    "price_info": {
+      "current_price": 1560.1,
+      "day_high": null,
+      "day_low": null,
+      "fifty_two_week_high": null,
+      "fifty_two_week_low": null
+    },
+    "company_info": {
+      "company_name": "Infosys Limited",
+      "sector": "Technology",
+      "industry": "Information Technology Services"
+    }
+  }
+}

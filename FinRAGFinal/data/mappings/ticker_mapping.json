@@ -1,0 +1,92 @@
+[
+  {
+    "ticker": "HEROMOTOCO.NS",
+    "company_name": "Hero MotoCorp",
+    "aliases": ["Hero", "Hero Motors", "Hero MotoCorp Ltd"]
+  },
+  {
+    "ticker": "TCS.NS",
+    "company_name": "Tata Consultancy Services",
+    "aliases": ["TCS", "Tata Consultancy", "TCS Ltd"]
+  },
+  {
+    "ticker": "INFY.NS",
+    "company_name": "Infosys",
+    "aliases": ["Infosys", "Infosys Ltd", "Infosys Technologies"]
+  },
+  {
+    "ticker": "RELIANCE.NS",
+    "company_name": "Reliance Industries",
+    "aliases": ["Reliance", "RIL", "Reliance Industries Ltd"]
+  },
+  {
+    "ticker": "HDFCBANK.NS",
+    "company_name": "HDFC Bank",
+    "aliases": ["HDFC Bank", "HDFC", "HDFC Bank Ltd"]
+  },
+  {
+    "ticker": "BAJAJ-AUTO.NS",
+    "company_name": "Bajaj Auto",
+    "aliases": ["Bajaj", "Bajaj Auto", "Bajaj Auto Ltd"]
+  },
+  {
+    "ticker": "MARUTI.NS",
+    "company_name": "Maruti Suzuki",
+    "aliases": ["Maruti", "Maruti Suzuki", "Maruti Suzuki India"]
+  },
+  {
+    "ticker": "WIPRO.NS",
+    "company_name": "Wipro",
+    "aliases": ["Wipro", "Wipro Ltd", "Wipro Technologies"]
+  },
+  {
+    "ticker": "HINDUNILVR.NS",
+    "company_name": "Hindustan Unilever",
+    "aliases": ["HUL", "Hindustan Unilever", "Hindustan Unilever Ltd"]
+  },
+  {
+    "ticker": "ITC.NS",
+    "company_name": "ITC Limited",
+    "aliases": ["ITC", "ITC Ltd", "ITC Limited"]
+  },
+  {
+    "ticker": "AXISBANK.NS",
+    "company_name": "Axis Bank",
+    "aliases": ["Axis", "Axis Bank", "Axis Bank Ltd"]
+  },
+  {
+    "ticker": "ICICIBANK.NS",
+    "company_name": "ICICI Bank",
+    "aliases": ["ICICI", "ICICI Bank", "ICICI Bank Ltd"]
+  },
+  {
+    "ticker": "BHARTIARTL.NS",
+    "company_name": "Bharti Airtel",
+    "aliases": ["Airtel", "Bharti Airtel", "Bharti Airtel Ltd"]
+  },
+  {
+    "ticker": "KOTAKBANK.NS",
+    "company_name": "Kotak Mahindra Bank",
+    "aliases": ["Kotak", "Kotak Bank", "Kotak Mahindra"]
+  },
+  {
+    "ticker": "LT.NS",
+    "company_name": "Larsen & Toubro",
+    "aliases": ["L&T", "LT", "Larsen and Toubro"]
+  },
+  {
+    "ticker": "AAPL",
+    "company_name": "Apple Inc",
+    "aliases": ["Apple", "AAPL", "Apple Inc"]
+  },
+  {
+    "ticker": "MSFT",
+    "company_name": "Microsoft",
+    "aliases": ["Microsoft", "MSFT", "Microsoft Corporation"]
+  },
+  {
+    "ticker": "GOOGL",
+    "company_name": "Alphabet Inc",
+    "aliases": ["Google", "Alphabet", "GOOGL"]
+  }
+]

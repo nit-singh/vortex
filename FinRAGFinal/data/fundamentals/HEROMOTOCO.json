@@ -1,0 +1,16 @@
+{
+  "ticker": "HEROMOTOCO",
+  "cached_at": "2025-11-29T10:55:04.460828",
+  "fundamental_data": {
+    "financial_metrics": {
+      "valuation": 45.0,
+      "profitability": 80.0,
+      "growth": 82.5,
+      "financial_health": 65.0,
+      "momentum": 206.0
+    },
+    "sentiment_analysis": {},
+    "risk_factors": [],
+    "opportunities": []
+  }
+}

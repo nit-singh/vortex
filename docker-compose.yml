@@ -1,0 +1,164 @@
+services:
+  # MongoDB service (if not using external MongoDB)
+  mongodb:
+    image: mongo:7
+    container_name: pm_agent_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    restart: unless-stopped
+    networks:
+      - pm_agent_network
+
+  # Next.js Dashboard
+  web:
+    build:
+      context: ./dashboard
+      args:
+        NEXT_PUBLIC_API_BASE_URL: http://api:8000
+        NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME: "dytdzrfwu"
+        NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET: "Pathway Inter"
+        NEXT_PUBLIC_FINRAG_MCP_API_URL: http://finrag-mcp:8123
+    ports:
+      - "3000:3000"
+    restart: always
+    environment:
+      - NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
+    env_file:
+      - .env
+    depends_on:
+      - api
+    networks:
+      - pm_agent_network
+
+  # Flask Main API Server
+  api:
+    build:
+      context: .
+      dockerfile: flask_server/Dockerfile
+    container_name: pm_agent_flask
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./flask_server:/app/flask_server
+      - ./KYC:/app/KYC
+    env_file:
+      - .env
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_DEBUG=1
+      - MONGODB_URI=mongodb://mongodb:27017/
+    depends_on:
+      - mongodb
+      - kyc-combined-api
+      - kyc-payload-api
+    networks:
+      - pm_agent_network
+
+  # FinRAG API Server
+  finrag-api:
+    build:
+      context: ./FinRAGFinal
+      dockerfile: Dockerfile
+    container_name: pm_agent_finrag_api
+    ports:
+      - "8002:8000"
+    volumes:
+      - ./FinRAGFinal:/app
+    env_file:
+      - .env
+    environment:
+      - PORT=8000
+    networks:
+      - pm_agent_network
+
+  # FinRAG MCP Server
+  finrag-mcp:
+    build:
+      context: ./FinRAGFinal
+      dockerfile: Dockerfile.mcp
+    container_name: pm_agent_finrag_mcp
+    ports:
+      - "8123:8123"
+    volumes:
+      - ./FinRAGFinal:/app
+    env_file:
+      - .env
+    networks:
+      - pm_agent_network
+
+  # SmartFolio API Server
+  smartfolio-api:
+    build:
+      context: ./SmartFolio
+      dockerfile: Dockerfile
+    container_name: pm_agent_smartfolio
+    ports:
+      - "8003:8000"
+    volumes:
+      - ./SmartFolio:/app
+    env_file:
+      - .env
+    networks:
+      - pm_agent_network
+
+  # KYC Combined API
+  kyc-combined-api:
+    build:
+      context: ./KYC
+      dockerfile: Dockerfile
+    container_name: pm_agent_kyc_combined
+    ports:
+      - "8004:8000"
+    command: python -m uvicorn combined_api:app --host 0.0.0.0 --port 8000
+    volumes:
+      - ./KYC:/app
+    env_file:
+      - .env
+    depends_on:
+      - mongodb
+    networks:
+      - pm_agent_network
+
+  # KYC Payload API
+  kyc-payload-api:
+    build:
+      context: ./KYC
+      dockerfile: Dockerfile
+    container_name: pm_agent_kyc_payload
+    ports:
+      - "8001:8001"
+    command: python -m uvicorn payload_api:app --host 0.0.0.0 --port 8001
+    volumes:
+      - ./KYC:/app
+    env_file:
+      - .env
+    depends_on:
+      - mongodb
+    networks:
+      - pm_agent_network
+
+  # KYC Admin API
+  kyc-admin-api:
+    build:
+      context: ./KYC
+      dockerfile: Dockerfile
+    container_name: pm_agent_kyc_admin
+    ports:
+      - "8080:8080"
+    command: python -m uvicorn admin_api:app --host 0.0.0.0 --port 8080
+    volumes:
+      - ./KYC:/app
+    env_file:
+      - .env
+    depends_on:
+      - mongodb
+    networks:
+      - pm_agent_network
+
+networks:
+  pm_agent_network:
+    driver: bridge
+volumes:
+  mongodb_data:

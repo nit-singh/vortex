@@ -1,0 +1,16 @@
+{
+  "ticker": "SHRIRAMFIN",
+  "cached_at": "2025-11-28T12:13:07.365778",
+  "fundamental_data": {
+    "financial_metrics": {
+      "valuation": 65.0,
+      "profitability": 80.0,
+      "growth": 65.0,
+      "financial_health": 51.666666666666664,
+      "momentum": 225.0
+    },
+    "sentiment_analysis": {},
+    "risk_factors": [],
+    "opportunities": []
+  }
+}

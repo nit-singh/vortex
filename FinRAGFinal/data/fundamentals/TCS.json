@@ -1,0 +1,16 @@
+{
+  "ticker": "TCS",
+  "cached_at": "2025-12-01T12:41:39.344628",
+  "fundamental_data": {
+    "financial_metrics": {
+      "valuation": 45.0,
+      "profitability": 90.0,
+      "growth": 45.0,
+      "financial_health": 68.33333333333333,
+      "momentum": 201.5
+    },
+    "sentiment_analysis": {},
+    "risk_factors": [],
+    "opportunities": []
+  }
+}

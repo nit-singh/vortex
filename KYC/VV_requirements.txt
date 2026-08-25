@@ -1,0 +1,8 @@
+pillow==9.5.0
+torch==2.8.0
+torchvision==0.23.0
+facenet-pytorch==2.5.3
+numpy==1.26.4
+opencv-python-headless==4.9.0.80
+urllib3==1.26.20
+requests==2.32.5

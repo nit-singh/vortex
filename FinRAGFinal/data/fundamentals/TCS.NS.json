@@ -1,0 +1,30 @@
+{
+  "ticker": "TCS.NS",
+  "cached_at": "2025-11-27T14:25:24.699231",
+  "fundamental_data": {
+    "financial_metrics": {
+      "market_cap": 11348493729792,
+      "revenue": null,
+      "profit_margin": 0.19186,
+      "eps": null,
+      "pe_ratio": 22.955212,
+      "pb_ratio": null,
+      "debt_to_equity": 10.173,
+      "roe": 0.47355998,
+      "dividend_yield": 1.96,
+      "beta": 0.332
+    },
+    "price_info": {
+      "current_price": 3136.6,
+      "day_high": null,
+      "day_low": null,
+      "fifty_two_week_high": null,
+      "fifty_two_week_low": null
+    },
+    "company_info": {
+      "company_name": "Tata Consultancy Services Limited",
+      "sector": "Technology",
+      "industry": "Information Technology Services"
+    }
+  }
+}

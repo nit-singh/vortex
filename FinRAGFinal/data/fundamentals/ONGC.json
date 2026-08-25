@@ -1,0 +1,16 @@
+{
+  "ticker": "ONGC",
+  "cached_at": "2025-12-01T13:14:54.802303",
+  "fundamental_data": {
+    "financial_metrics": {
+      "valuation": 90.0,
+      "profitability": 63.75,
+      "growth": 35.0,
+      "financial_health": 51.666666666666664,
+      "momentum": 217.5
+    },
+    "sentiment_analysis": {},
+    "risk_factors": [],
+    "opportunities": []
+  }
+}

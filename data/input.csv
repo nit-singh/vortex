@@ -1,0 +1,11 @@
+id,first,last,aadhar_path,pan_path,itr_path,video_path,main_occupation,marital_status,dependents,Q1,Q2,Q3,Q4,Q5,Q6
+2,Smuel,Hiker,/data/test_images/1.jpg,/data/test_images/1.png,/data/test_images/ITR.jpg,/data/test_images/demo_vdo.mov,Professional,Single,0,B,B,A,A,A,A
+3,Oliver,Doe,/data/test_images/2.jpg,/data/test_images/2.png,/data/test_images/ITR.jpg,/data/test_images/demo_vdo.mov,Student,Single,0,C,A,B,C,B,C
+4,Emma,Smith,/data/test_images/3.jpg,/data/test_images/3.png,/data/test_images/ITR.jpg,/data/test_images/demo_vdo.mov,Professional,Married,1,A,B,C,A,C,A
+5,Ava,Johnson,/data/test_images/4.jpg,/data/test_images/4.png,/data/test_images/ITR.jpg,/data/test_images/demo_vdo.mov,Professional,Married,2,B,C,A,B,A,B
+6,Isabella,Williams,/data/test_images/5.jpg,/data/test_images/5.png,/data/test_images/ITR.jpg,/data/test_images/demo_vdo.mov,Student,Single,0,C,B,C,C,B,C
+7,Sophia,Jones,/data/test_images/6.jpg,/data/test_images/6.png,/data/test_images/ITR.jpg,/data/test_images/demo_vdo.mov,Professional,Married,4,A,A,B,A,B,A
+8,Mia,Brown,/data/test_images/7.jpg,/data/test_images/7.png,/data/test_images/ITR.jpg,/data/test_images/demo_vdo.mov,Professional,Single,0,B,B,C,B,C,B
+9,Charlotte,Davis,/data/test_images/8.jpg,/data/test_images/8.png,/data/test_images/ITR.jpg,/data/test_images/demo_vdo.mov,Student,Single,0,C,C,A,C,A,C
+10,Amelia,Miller,/data/test_images/9.jpg,/data/test_images/9.png,/data/test_images/ITR.jpg,/data/test_images/demo_vdo.mov,Professional,Married,2,A,B,A,A,B,A
+11,Harper,Wilson,/data/test_images/10.jpg,/data/test_images/10.png,/data/test_images/ITR.jpg,/data/test_images/demo_vdo.mov,Professional,Married,3,B,A,C,B,C,B

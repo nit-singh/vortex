@@ -1,0 +1,16 @@
+{
+  "ticker": "ITC",
+  "cached_at": "2025-11-29T10:54:00.077632",
+  "fundamental_data": {
+    "financial_metrics": {
+      "valuation": 45.0,
+      "profitability": 92.5,
+      "growth": 35.0,
+      "financial_health": 83.33333333333333,
+      "momentum": 186.5
+    },
+    "sentiment_analysis": {},
+    "risk_factors": [],
+    "opportunities": []
+  }
+}

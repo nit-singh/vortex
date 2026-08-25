@@ -1,0 +1,16 @@
+{
+  "ticker": "PRESTIGE",
+  "cached_at": "2025-11-29T10:54:31.029294",
+  "fundamental_data": {
+    "financial_metrics": {
+      "valuation": 35.0,
+      "profitability": 62.5,
+      "growth": 77.5,
+      "financial_health": 41.666666666666664,
+      "momentum": 206.0
+    },
+    "sentiment_analysis": {},
+    "risk_factors": [],
+    "opportunities": []
+  }
+}
